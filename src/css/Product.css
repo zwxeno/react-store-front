@@ -8,3 +8,7 @@
     width: 280px;
     height: 280px;
 }
+
+.Product .buy-button {
+    margin: 5px;
+}

@@ -1,4 +1,5 @@
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 import './css/Product.css';
 
@@ -12,6 +13,7 @@ const Product = ({productName, productDescription, imgFileName, altText}) => {
                     {productDescription}
                 </Card.Text>
             </Card.Body>
+            <Button variant="primary" className="buy-button">BUY NOW</Button>
         </Card>
     );
 }

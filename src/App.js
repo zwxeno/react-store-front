@@ -25,14 +25,14 @@ const App = () => {
                 </Navbar>
 
                 <div className="products">
-                    <Product productName="Sauvage" productDescription="Le parfum Sauvage." imgFileName="sauvage.jpeg"
+                    <Product productName="Sauvage" productDescription="30 €" imgFileName="sauvage.jpeg"
                              altText="Le parfum Sauvage."/>
 
-                    <Product productName="Nuit de l'homme" productDescription="Le parfum Nuit de l'homme."
+                    <Product productName="Nuit de l'homme" productDescription="78 €"
                              imgFileName="ndh.jpeg"
                              altText="Le parfum Nuit de l'homme."/>
 
-                    <Product productName="Tom Ford" productDescription="Le parfum Tom Ford." imgFileName="tf.jpg"
+                    <Product productName="Tom Ford" productDescription="98.25 €" imgFileName="tf.jpg"
                              altText="Le parfum Tom Ford."/>
 
                 </div>
