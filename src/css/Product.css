@@ -1,0 +1,10 @@
+.Product {
+    flex-direction: column;
+    width: 18rem;
+    margin: 7px;
+}
+
+.Product img {
+    width: 280px;
+    height: 280px;
+}
