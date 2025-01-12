@@ -1,12 +1,14 @@
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Card from "react-bootstrap/Card";
 import {Nav, NavLink} from 'react-bootstrap';
-
-import './css/App.css';
 import Heading from "./Heading";
 import Product from "./Product";
+
+import './assets/css/App.css';
+
+import Sauvage from "./assets/img/sauvage.jpeg";
+import TomFord from "./assets/img/tf.jpg";
+import NuitDeLhomme from "./assets/img/ndh.jpeg";
+
 
 const App = () => {
     return (
@@ -25,14 +27,15 @@ const App = () => {
                 </Navbar>
 
                 <div className="products">
-                    <Product productName="Sauvage" productDescription="30 €" imgFileName="sauvage.jpeg"
+
+                    <Product productName="Sauvage" productDescription="30 €" imgFileName={Sauvage}
                              altText="Le parfum Sauvage."/>
 
                     <Product productName="Nuit de l'homme" productDescription="78 €"
-                             imgFileName="ndh.jpeg"
+                             imgFileName={NuitDeLhomme}
                              altText="Le parfum Nuit de l'homme."/>
 
-                    <Product productName="Tom Ford" productDescription="98.25 €" imgFileName="tf.jpg"
+                    <Product productName="Tom Ford" productDescription="98.25 €" imgFileName={TomFord}
                              altText="Le parfum Tom Ford."/>
 
                 </div>
