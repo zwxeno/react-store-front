@@ -2,6 +2,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {Nav, NavLink} from 'react-bootstrap';
 import Heading from "./Heading";
 import Product from "./Product";
+import MyForm from "./MyForm";
 
 import './assets/css/App.css';
 
@@ -17,6 +18,7 @@ const App = () => {
 
             <div className={App}>
 
+                {/* Navbar */}
                 <Navbar className="bg-dark-subtle">
                     <Heading>Perfume store</Heading>
                     <Nav>
@@ -26,6 +28,7 @@ const App = () => {
                     </Nav>
                 </Navbar>
 
+                {/* products */}
                 <div className="products">
 
                     <Product productName="Sauvage" productDescription="30 €" imgFileName={Sauvage}
@@ -39,6 +42,9 @@ const App = () => {
                              altText="Le parfum Tom Ford."/>
 
                 </div>
+
+                {/* Form */}
+                <MyForm/>
 
             </div>
         </>
